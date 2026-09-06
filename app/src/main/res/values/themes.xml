@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dark, action-bar-less window. The real UI is drawn by Compose
+         (LuminaMotionTheme); this only styles the pre-Compose window so there
+         is no light flash on launch. -->
+    <style name="Theme.LuminaMotion" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/lumina_background</item>
+        <item name="android:statusBarColor">@color/lumina_background</item>
+        <item name="android:navigationBarColor">@color/lumina_background</item>
+    </style>
+
+    <!-- Cold-start splash. Drawn by the system from the moment the launcher icon
+         is tapped until the first Compose frame, so there's no black/blank window
+         while the process and UI load. Hands off to Theme.LuminaMotion. -->
+    <style name="Theme.LuminaMotion.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/lumina_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.LuminaMotion</item>
+    </style>
+</resources>
