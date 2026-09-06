@@ -1,0 +1,59 @@
+# ============================================================
+#  Lumina Motion — .gitignore
+# ============================================================
+
+# --- Gradle ---
+.gradle/
+build/
+/build
+/captures
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# --- Local config / secrets (NEVER commit) ---
+local.properties
+*.keystore
+*.jks
+keystore.properties
+signing.properties
+key.properties
+*.p12
+*.pem
+secrets.properties
+google-services.json
+
+# --- Build artifacts ---
+*.apk
+*.aab
+*.ap_
+*.aar
+*.dex
+*.class
+release/
+mapping.txt
+
+# --- Android Studio / IntelliJ ---
+*.iml
+.idea/
+.cxx/
+.externalNativeBuild/
+
+# --- Kotlin ---
+.kotlin/
+
+# --- Claude / AI tools ---
+.claude/
+CLAUDE.md
+.cursor/
+.aider*
+
+# --- Operating system ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs and temporary files ---
+*.log
+*.tmp
+*.bak
+hs_err_pid*
