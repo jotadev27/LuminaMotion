@@ -1,0 +1,54 @@
+PROPRIETARY SOFTWARE LICENSE — ALL RIGHTS RESERVED
+==================================================
+
+Lumina Motion
+Copyright (c) 2026 jotadev27. All rights reserved.
+
+------------------------------------------------------------------------
+TERMS
+------------------------------------------------------------------------
+
+This software, its source code, assets, design, documentation, and all
+associated materials (the "Software") are the exclusive property of jotadev27
+(the "Author") and are protected by copyright law and international
+intellectual property treaties.
+
+The source code is published FOR VIEWING, TRANSPARENCY, AND REFERENCE PURPOSES
+ONLY. Publication of this code grants NO license or right of use beyond
+reading.
+
+Without the Author's prior, express, written permission, the following are
+STRICTLY PROHIBITED:
+
+  1. Copying, reproducing, or duplicating the Software, in whole or in part.
+  2. Modifying, adapting, translating, or creating derivative works of the
+     Software.
+  3. Distributing, sublicensing, selling, renting, lending, or transferring
+     the Software or any part of it, by any means.
+  4. Publishing the Software or any derivative work on any app store,
+     repository, or platform.
+  5. Reverse engineering, decompiling, or disassembling the Software, except
+     to the extent mandatorily permitted by applicable law.
+  6. Removing, obscuring, or altering any copyright, trademark, or authorship
+     notice contained in the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE
+USE OR PERFORMANCE OF THE SOFTWARE.
+
+Any unauthorized use constitutes copyright infringement and will be prosecuted
+to the fullest extent of the law.
+
+To request permissions or licensing, contact the Author.
+
+------------------------------------------------------------------------
+THIRD-PARTY FONTS
+------------------------------------------------------------------------
+
+The typefaces bundled in res/font/ (Sora, Inter, JetBrains Mono) are
+third-party works licensed under the SIL Open Font License 1.1 (OFL) and retain
+their own license; they are not covered by this proprietary license. The
+third-party libraries declared in Gradle likewise retain their respective
+licenses.
